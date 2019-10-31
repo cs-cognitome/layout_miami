@@ -35,13 +35,11 @@ span {
   font-weight: 500; }
 
 a {
-  color: #00aaef;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s; }
+  color: #fff;
+  text-decoration: none; }
 
 a:hover {
-  color: #2f80ed; }
+  cursor: pointer; }
 
 .navigation {
   color: #000;
@@ -384,5 +382,13 @@ a:hover {
     right: 0;
     bottom: 95px;
     margin: auto; }
+
+.link {
+  color: #00aaef;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
+  .link:hover {
+    color: #2f80ed; }
 
 /*# sourceMappingURL=main.css.map */
